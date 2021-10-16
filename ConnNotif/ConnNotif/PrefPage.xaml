@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConnNotif.PrefPage">
+    <ContentPage.Content>
+        <StackLayout >
+            <Frame BackgroundColor="{StaticResource blueColor}" Padding="24" CornerRadius="0">
+                <Label Text="Configuração"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White"
+                       FontSize="36" />
+            </Frame>
+            
+            <Label Text="Use os dados que lhe foram passados por email"
+                   FontSize="Title"
+                   Padding="30,40,30,30"/>
+            
+            <Label x:Name ="HubTagEntryLabel"
+                   Margin="10,0,0,0"
+               Text="A sua chave pessoal"
+               TextColor="{StaticResource blueColor}"/>
+            <Entry x:Name="HubTagEntry"
+                   Margin="10,0,0,0"
+               Placeholder="digite a sua chave pessoal"
+               TextColor="{StaticResource blueColor}"/>
+            <Label x:Name ="HubNameEntryLabel"
+                   Margin="10,0,0,0"
+               Text="O nome do Notification Hub"
+               TextColor="{StaticResource blueColor}"/>
+            <Entry x:Name="HubNameEntry"
+                   Margin="10,0,0,0"
+               Placeholder="digite o nome do Notification Hub"
+               TextColor="{StaticResource blueColor}"/>
+            <Label x:Name ="HubConnStringEntryLabel"
+                   Margin="10,0,0,0"
+               Text="A 'connection string'"
+               TextColor="{StaticResource blueColor}"/>
+            <Entry x:Name="HubConnStringEntry"
+                   Margin="10,0,0,0"
+                   Placeholder="cole a connection string que lhe foi passada"
+                   TextColor="{StaticResource blueColor}"/>
+            <Button Text="Guardar"
+                x:Name="updateBttn"
+                Margin="10,30,10,0"
+                Clicked="SaveBttn_Clicked"
+                Style="{StaticResource normalButton}"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

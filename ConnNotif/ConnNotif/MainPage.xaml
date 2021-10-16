@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ConnNotif.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Configuração"
+                     Clicked="TbPref_Clicked"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout >
+
+        <Frame BackgroundColor="{StaticResource blueColor}" Padding="24" CornerRadius="0">
+            <Label Text="Connect@fashion"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White"
+                       FontSize="36" />
+        </Frame>
+
+
+
+        <Label x:Name ="MainLabel"
+               Text="Bem-vindo ao sistema de notificações Connect@Fashion!" 
+               Margin="20"
+               TextColor="{StaticResource blueColor}"/>
+
+    </StackLayout>
+
+</ContentPage>
