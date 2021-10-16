@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784365029933",
+    "project_id": "connfashionconstants",
+    "storage_bucket": "connfashionconstants.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784365029933:android:1fac590b796288040546a4",
+        "android_client_info": {
+          "package_name": "com.nunokrold.connfashionconstants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784365029933-iu4rge8dq6uf5jbi3uoj4stmic8vm4jf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApZgDqD2WnYtdGpswWiBdTUKm16iBP_yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784365029933-iu4rge8dq6uf5jbi3uoj4stmic8vm4jf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
